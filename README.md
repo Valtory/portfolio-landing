@@ -5,8 +5,8 @@ Hola, soy **Val**, Software Engineer con experiencia en **React, TypeScript y so
 Me apasiona liderar proyectos que combinan **creatividad, tecnología y visión estratégica**, impulsar procesos y acompañar a otros en su crecimiento profesional.  
 
 Portfolio online: [valtory.dev](https://valtory.dev)
----
-⚔️ Portfolio impulsado con V0 como agente
+
+### ⚔️ Portfolio impulsado con V0 como agente
 ---
 
 ## 💻 Tech Stack
