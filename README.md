@@ -1,30 +1,48 @@
-# Spanish conversation
+# 🌟 Valtory.dev – Portfolio de Val
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+## 🚀 Acerca de mí
+Hola, soy **Val**, Software Engineer con experiencia en **React, TypeScript y soluciones fintech**, amante de la **historia** y practicante de **esgrima**.  
+Me apasiona liderar proyectos que combinan **creatividad, tecnología y visión estratégica**, impulsar procesos y acompañar a otros en su crecimiento profesional.  
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/valtorys-projects/v0-spanish-conversation)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/4v8y1sQOfHb)
+Portfolio online: [valtory.dev](https://valtory.dev)
+⚔️ Portfolio impulsado con V0 como agente
+---
 
-## Overview
+## 💻 Tech Stack
+- **Frontend:** React, Next.js, TypeScript  
+- **UI / Design:** Tailwind CSS, Styled Components, Design Systems  
+- **Backend / APIs:** Node.js, Express, BFF (Backend-for-Frontend)  
+- **Otros:** Git, Vercel, Cloudflare, CI/CD, Testing  
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+---
 
-## Deployment
+## 📂 Proyectos Destacados
+Aquí algunos proyectos y demos que podés ver en mi portfolio:
 
-Your project is live at:
+| Proyecto | Descripción | Tecnologías | Enlace |
+|----------|------------|------------|--------|
+| Proyecto 1 | Breve descripción de lo que hace | React, TypeScript | [Ver](#) |
+| Proyecto 2 | Breve descripción de lo que hace | Next.js, Tailwind | [Ver](#) |
+| Proyecto 3 | Breve descripción de lo que hace | Node.js, Express | [Ver](#) |
 
-**[https://vercel.com/valtorys-projects/v0-spanish-conversation](https://vercel.com/valtorys-projects/v0-spanish-conversation)**
+> 💡 Tip: agregá capturas de pantalla o GIFs de tus proyectos para que se vean más atractivos.
 
-## Build your app
+---
 
-Continue building your app on:
+## 🌐 Deployment
+Mi portfolio está **hosteado en Vercel**:  
+- Dominio: `valtory.dev`  
+- Optimizado para performance y mobile-first  
 
-**[https://v0.app/chat/projects/4v8y1sQOfHb](https://v0.app/chat/projects/4v8y1sQOfHb)**
+---
 
-## How It Works
+## 📫 Contacto
+- Email: val@example.com  
+- LinkedIn: [Valeria Ibanez](https://www.linkedin.com/in/valeria-ibanez/)  
+- GitHub: [valtory](https://github.com/valtory)  
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## ⚡ Extra
+- Disfruto liderar **equipos de desarrollo**, colaborando con UX y gestionando **roadmaps profesionales**.  
+- Me interesa la intersección de **marketing, fintech y tecnología**.  
