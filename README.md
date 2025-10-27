@@ -7,7 +7,7 @@ Me apasiona liderar proyectos que combinan **creatividad, tecnología y visión 
 Portfolio online: [valtory.dev](https://valtory.dev)
 ---
 
-###⚔️ Portfolio impulsado con V0 como agente
+### ⚔️ Portfolio impulsado con V0 como agente
 
 
 ## 💻 Tech Stack
