@@ -1,4 +1,4 @@
-import { Card } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Calendar, Clock, CheckCircle2 } from "lucide-react"
 
@@ -73,14 +73,28 @@ export function Consultation() {
           ))}
         </div>
 
-        <div className="text-center pt-8">
+        {/* <div className="text-center pt-8">
           <p className="text-muted-foreground mb-4">¿No estás seguro qué tipo de consulta necesitas?</p>
           <Button size="lg" variant="outline" asChild>
             <a href="https://calendly.com/valtory/1-1" target="_blank" rel="noopener noreferrer">
               Ver Disponibilidad en Calendly
             </a>
           </Button>
-        </div>
+        </div> */}
+        <Card className="overflow-hidden">
+            <CardContent className="p-0">
+              <div className="relative h-[700px] w-full">
+                <iframe
+                  src="https://calendly.com/valtory/1-1"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  className="rounded-lg"
+                  title="Calendly Scheduling"
+                />
+              </div>
+            </CardContent>
+          </Card>
       </div>
     </section>
   )
