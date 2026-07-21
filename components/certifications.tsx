@@ -25,9 +25,10 @@ const certifications = [
 
 export function Certifications() {
   return (
-    <section className="py-20 px-4 bg-muted/30">
-      <div className="max-w-6xl mx-auto space-y-12">
+    <section className="py-16 md:py-20 px-4 bg-surface-alt">
+      <div className="max-w-6xl mx-auto space-y-10">
         <div className="space-y-4 text-center">
+          <span className="block text-sm font-bold tracking-wide uppercase text-brand">Formación</span>
           <h2 className="text-3xl md:text-4xl font-bold">Educación & Certificaciones</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Formación continua en ingeniería, desarrollo y liderazgo técnico
@@ -37,8 +38,8 @@ export function Certifications() {
         <div className="grid md:grid-cols-3 gap-6">
           <Card className="p-6 space-y-4 md:col-span-2">
             <div className="flex items-center gap-3">
-              <div className="p-2 rounded-lg bg-primary/10">
-                <GraduationCap className="h-5 w-5 text-primary" />
+              <div className="p-2 rounded-lg bg-brand-tint">
+                <GraduationCap className="h-5 w-5 text-brand" />
               </div>
               <h3 className="text-lg font-semibold">Educación</h3>
             </div>
@@ -56,7 +57,7 @@ export function Certifications() {
 
             <div className="pt-2 border-t space-y-2">
               <div className="flex items-center gap-2 text-sm font-medium">
-                <Award className="h-4 w-4 text-accent" />
+                <Award className="h-4 w-4 text-brand" />
                 Certificaciones
               </div>
               <ul className="space-y-1.5">
@@ -71,18 +72,18 @@ export function Certifications() {
 
           <Card className="p-6 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="p-2 rounded-lg bg-accent/10">
-                <Languages className="h-5 w-5 text-accent" />
+              <div className="p-2 rounded-lg bg-brand-tint">
+                <Languages className="h-5 w-5 text-brand" />
               </div>
               <h3 className="text-lg font-semibold">Idiomas</h3>
             </div>
             <div className="flex items-center justify-between">
               <span className="font-medium">Inglés</span>
-              <Badge variant="outline">B2 - Full Professional</Badge>
+              <Badge variant="outline" className="rounded-full border-transparent bg-brand-tint text-brand-dark">B2 - Full Professional</Badge>
             </div>
             <div className="flex items-center justify-between">
               <span className="font-medium">Español</span>
-              <Badge variant="outline">Nativo</Badge>
+              <Badge variant="outline" className="rounded-full border-transparent bg-brand-tint text-brand-dark">Nativo</Badge>
             </div>
           </Card>
         </div>

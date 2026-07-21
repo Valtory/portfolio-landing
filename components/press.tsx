@@ -7,9 +7,9 @@ const ARTICLE_URL =
 
 export function Press() {
   return (
-    <section className="py-16 px-4">
+    <section className="py-16 px-4 bg-surface-alt">
       <div className="max-w-5xl mx-auto">
-        <Card className="p-6 md:p-10 border-primary/20 bg-gradient-to-br from-primary/5 via-transparent to-accent/5">
+        <Card className="p-6 md:p-10 border-brand/20 bg-gradient-to-br from-brand/5 via-transparent to-brand-dark/5">
           <div className="grid md:grid-cols-[280px_1fr] gap-8 md:gap-12 items-center">
             {/* Photo */}
             <div className="relative mx-auto w-full max-w-[280px]">
@@ -22,15 +22,15 @@ export function Press() {
                   sizes="280px"
                 />
               </div>
-              <div className="absolute bottom-0 inset-x-0 h-2.5 bg-gradient-to-r from-primary to-accent rounded-b-2xl" />
+              <div className="absolute bottom-0 inset-x-0 h-2.5 bg-gradient-to-r from-brand to-brand-dark rounded-b-2xl" />
             </div>
 
             {/* Quote bubble */}
             <div className="space-y-5">
               <div className="space-y-1">
                 <div className="flex items-center gap-2">
-                  <span className="w-1 h-5 bg-primary rounded-full" />
-                  <span className="text-sm font-bold tracking-wide uppercase text-primary">
+                  <span className="w-1 h-5 bg-brand rounded-full" />
+                  <span className="text-sm font-bold tracking-wide uppercase text-brand">
                     Historias que inspiran
                   </span>
                 </div>
@@ -44,7 +44,7 @@ export function Press() {
                   aria-hidden
                   className="hidden md:block absolute -left-3 top-8 w-6 h-6 bg-card border-l border-b rotate-45"
                 />
-                <Quote className="h-6 w-6 text-accent/40 mb-2" />
+                <Quote className="h-6 w-6 text-brand/30 mb-2" />
                 <p className="text-lg md:text-xl leading-snug text-balance">
                   "Un aprendizaje clave como líder fue{" "}
                   <strong className="font-semibold">
@@ -63,7 +63,7 @@ export function Press() {
                 href={ARTICLE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-semibold text-primary bg-primary/10 hover:bg-primary/15 transition-colors rounded-full px-4 py-2"
+                className="inline-flex items-center gap-2 text-sm font-semibold text-brand-dark bg-brand-tint hover:bg-brand-tint/60 transition-colors rounded-full px-4 py-2"
               >
                 Leer la nota completa en Forbes Argentina
                 <ArrowUpRight className="h-4 w-4" />

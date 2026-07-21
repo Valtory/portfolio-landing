@@ -3,9 +3,10 @@ import { GitBranch, Swords, ScrollText, GraduationCap } from "lucide-react"
 
 export function About() {
   return (
-    <section id="sobre-mi" className="py-20 px-4 bg-muted/30">
-      <div className="max-w-6xl mx-auto space-y-12">
+    <section id="sobre-mi" className="py-16 md:py-20 px-4">
+      <div className="max-w-6xl mx-auto space-y-10">
         <div className="space-y-4 text-center">
+          <span className="block text-sm font-bold tracking-wide uppercase text-brand">Quién soy</span>
           <h2 className="text-3xl md:text-4xl font-bold">Sobre mí</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
             {"\nSoftware Engineer, esgrimista y amante de la historia. Me apasiona liderar proyectos y equipos que combinan creatividad, tecnología y visión estratégica. Con varios años de experiencia en marketing y en el desarrollo de soluciones fintech, disfruto optimizar procesos, acompañar el crecimiento de quienes me rodean y construir productos que generen un impacto real y tangible."}
@@ -16,8 +17,8 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-6">
           <Card className="p-6 space-y-4 hover:shadow-lg transition-shadow">
             <div className="flex items-start gap-4">
-              <div className="p-3 rounded-lg bg-primary/10">
-                <GitBranch className="h-6 w-6 text-primary" />
+              <div className="p-3 rounded-lg bg-brand-tint">
+                <GitBranch className="h-6 w-6 text-brand" />
               </div>
               <div className="space-y-2 flex-1">
                 <h3 className="text-xl font-semibold">Liderazgo Técnico</h3>
@@ -30,8 +31,8 @@ export function About() {
 
           <Card className="p-6 space-y-4 hover:shadow-lg transition-shadow">
             <div className="flex items-start gap-4">
-              <div className="p-3 rounded-lg bg-accent/10">
-                <GraduationCap className="h-6 w-6 text-accent" />
+              <div className="p-3 rounded-lg bg-brand-tint">
+                <GraduationCap className="h-6 w-6 text-brand" />
               </div>
               <div className="space-y-2 flex-1">
                 <h3 className="text-xl font-semibold">Mentoría & Comunidad</h3>
@@ -44,8 +45,8 @@ Además de mi profesion en sistemas, colaboro como voluntaria en Nerdearla y lid
 
           <Card className="p-6 space-y-4 hover:shadow-lg transition-shadow">
             <div className="flex items-start gap-4">
-              <div className="p-3 rounded-lg bg-accent/10">
-                <Swords className="h-6 w-6 text-accent" />
+              <div className="p-3 rounded-lg bg-brand-tint">
+                <Swords className="h-6 w-6 text-brand" />
               </div>
               <div className="space-y-2 flex-1">
                 <h3 className="text-xl font-semibold">Esgrima Histórica (HEMA)</h3>
@@ -58,8 +59,8 @@ Además de mi profesion en sistemas, colaboro como voluntaria en Nerdearla y lid
 
           <Card className="p-6 space-y-4 hover:shadow-lg transition-shadow">
             <div className="flex items-start gap-4">
-              <div className="p-3 rounded-lg bg-primary/10">
-                <ScrollText className="h-6 w-6 text-primary" />
+              <div className="p-3 rounded-lg bg-brand-tint">
+                <ScrollText className="h-6 w-6 text-brand" />
               </div>
               <div className="space-y-2 flex-1">
                 <h3 className="text-xl font-semibold">Ciencia & Curiosidad</h3>

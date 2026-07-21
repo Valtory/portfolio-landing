@@ -15,7 +15,7 @@ export function Hero() {
             href="https://www.linkedin.com/in/valeria-ibanez/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-sm font-medium text-primary bg-primary/10 hover:bg-primary/15 transition-colors rounded-full px-4 py-2"
+            className="inline-flex items-center gap-2 text-sm font-medium text-brand-dark bg-brand-tint hover:bg-brand-tint/60 transition-colors rounded-full px-4 py-2"
           >
             <LinkedInLogo className="h-4 w-4" />
             Conectar en LinkedIn

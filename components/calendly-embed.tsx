@@ -10,7 +10,7 @@ export function CalendlyEmbed() {
     <div className="relative h-[700px] w-full">
       {!loaded && (
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-card rounded-lg">
-          <Loader2 className="h-6 w-6 animate-spin text-primary" />
+          <Loader2 className="h-6 w-6 animate-spin text-brand" />
           <p className="text-sm text-muted-foreground">Cargando calendario...</p>
         </div>
       )}
