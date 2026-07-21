@@ -36,7 +36,7 @@ export function About() {
               <div className="space-y-2 flex-1">
                 <h3 className="text-xl font-semibold">Mentoría & Comunidad</h3>
                 <p className="text-muted-foreground leading-relaxed">
-Además de mi trabajo como Tech Lead, colaboro como voluntaria en Nerdearla y lidero proyectos comunitarios en HEMA Argentina y HEMA Latam. Me interesa crear espacios donde las personas puedan compartir conocimiento, aprender de otras experiencias y encontrar oportunidades para crecer y conectarse.
+Además de mi profesion en sistemas, colaboro como voluntaria en Nerdearla y lidero proyectos comunitarios en HEMA Argentina y HEMA Latam. Me interesa crear espacios donde las personas puedan compartir conocimiento, aprender de otras experiencias y encontrar oportunidades para crecer y conectarse.
                 </p>
               </div>
             </div>
