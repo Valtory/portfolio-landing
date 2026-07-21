@@ -3,33 +3,45 @@ import { Badge } from "@/components/ui/badge"
 
 const experiences = [
   {
-    role: "Tech Lead",
-    company: "Redbee Studios - Santander / Red Link",
-    period: "Actual",
+    role: "Tech Lead Mobile @ Link",
+    company: "Redbee Studios",
+    period: "jul 2025 - Actual",
     description:
-      "Lidero un equipo mobile y backend, desarrollando soluciones fintech con la Nueva Arquitectura de React Native y tecnologías modernas, enfocadas en escalabilidad, seguridad y eficiencia.",
-    skills: ["React Native", "TypeScript", "Leadership", "Mobile Architecture"],
+      "Lidero 3 equipos para la plataforma multitenant de adquirencia de Link: mobile con React Native New Architecture (TurboModules y Fabric), microfrontends con React, y BFF con NestJS. Diseño y mantengo un Design System centralizado con Storybook, y gestiono compliance de seguridad con Snyk.",
+    skills: ["React Native", "New Architecture", "NestJS", "Spring Boot", "Team Management", "Fintech", "POS"],
   },
   {
-    role: "Line Manager & Senior Software Engineer",
+    role: "Tech Lead / Sr Software Engineer",
+    company: "Redbee Studios - Santander Argentina",
+    period: "ene 2025 - ago 2025",
+    description:
+      "Lideré el desarrollo de Dashboard 3.0 para Santander Argentina, aplicando React, React Native y Node.js para entregar soluciones fintech escalables y eficientes.",
+    skills: ["React", "React Native", "Node.js", "Fintech"],
+  },
+  {
+    role: "Senior Software Engineer / Line Manager",
     company: "Avenga - Banco Galicia",
-    period: "3+ años",
-    description: "Desarrollo de soluciones frontend avanzadas con React y TypeScript, coordinación de equipos, planificación de roadmaps profesionales y colaboración en la definición del design system con UX.",
-    skills: ["React", "TypeScript", "Team Management", "BFF"],
+    period: "jul 2021 - ene 2025",
+    description:
+      "Frontend Ssr con React y backend support con Node.js (BFF), además de React Native (Android & iOS). Como Line Manager acompañé el crecimiento profesional del equipo, y lideré puntualmente Wallet Movilcash (equipo de 5) con autenticación biométrica.",
+    skills: ["React", "TypeScript", "React Native", "Team Management"],
   },
   {
     role: "Mobile Developer",
     company: "Uniciti",
-    period: "1+ año",
-    description: "Desarrollo de aplicaciones móviles nativas y multiplataforma, enfocadas en brindar experiencias de usuario fluidas y eficientes, utilizando React Native, Android e iOS.",
-    skills: ["React Native", "Android", "iOS", "Mobile Development"],
+    period: "abr 2024 - dic 2024",
+    description:
+      "Desarrollo de app mobile de seguridad y geolocalización con React Native CLI, Google Maps, Zustand y Redux. Publicada en Google Play.",
+    skills: ["React Native", "TypeScript", "Zustand", "Redux"],
+    link: "https://play.google.com/store/apps/details?id=com.unicitisos&hl=es_AR",
   },
   {
-    role: "Marketing Analyst / Customer Support Advisor",
+    role: "Marketing & Customer Experience",
     company: "Universidad Siglo 21",
-    period: "5+ años",
-    description: "Especialista en marketing y atención al cliente, con más de 5 años manejando CRM, estrategias de SEO/SEM, redes sociales y segmentación de clientes para impulsar ventas y fidelización.",
-    skills: ["React Native", "Android", "iOS", "Mobile Development"],
+    period: "2015 - 2020",
+    description:
+      "Analista de marketing y atención al cliente, con manejo de CRM Microsoft, campañas de posicionamiento SEO, email marketing y Content Management en redes sociales.",
+    skills: ["CRM", "SEO/SEM", "Content Management", "Social Media"],
   },
 ]
 
@@ -40,7 +52,7 @@ export function Experience() {
         <div className="space-y-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Experiencia</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Más de 5 años construyendo productos digitales y liderando equipos de desarrollo
+            Más de 5 años liderando equipos y construyendo soluciones mobile y frontend para el ecosistema Fintech
           </p>
         </div>
 
@@ -67,6 +79,17 @@ export function Experience() {
                     </Badge>
                   ))}
                 </div>
+
+                {exp.link && (
+                  <a
+                    href={exp.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block text-sm text-primary hover:underline"
+                  >
+                    Ver app publicada →
+                  </a>
+                )}
               </div>
             </Card>
           ))}

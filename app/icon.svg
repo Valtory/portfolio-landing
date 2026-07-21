@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="32" fill="#ffffff"/>
+
+  <!-- sword (celeste), diagonal pixel-art blade -->
+  <g transform="translate(5.6,5.6) scale(2.4)">
+    <path
+      fill="#4bb8e8"
+      stroke="#2b8fc4"
+      stroke-width="0.4"
+      stroke-linejoin="round"
+      d="M8 3V4H9V5H10V6H11V7H12V8H13V9H14V10H15V11H16V12H17V11H19V13H18V14H17V15H18V16H19V17H20V19H19V20H17V19H16V18H15V17H14V18H13V19H11V17H12V16H11V15H10V14H9V13H8V12H7V11H6V10H5V9H4V8H3V7H2V2H7V3H8Z"
+    />
+  </g>
+</svg>

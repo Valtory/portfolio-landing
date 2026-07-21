@@ -8,9 +8,18 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Valeria Ibañez - Tech Lead & Mobile Developer",
+  title: "Valeria Ibañez - Tech Lead Mobile & Frontend | Fintech & POS",
   description:
-    "Portfolio personal de Valeria Ibañez, Tech Lead en Redbee Studios especializada en desarrollo mobile y frontend.",
+    "Portfolio de Valeria Ibañez, Tech Lead especializada en Mobile & Frontend (React Native, React), liderando equipos en soluciones Fintech y POS con desarrollo asistido por IA.",
+  keywords: [
+    "Valeria Ibañez",
+    "Tech Lead",
+    "React Native",
+    "Mobile Developer",
+    "Fintech",
+    "POS",
+    "AI-Assisted Engineering",
+  ],
   generator: "v0.app",
 }
 
@@ -21,6 +30,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <link rel="preconnect" href="https://calendly.com" />
+        <link rel="preconnect" href="https://assets.calendly.com" />
+        <link rel="preconnect" href="https://js.stripe.com" />
+      </head>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />

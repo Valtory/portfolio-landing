@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card"
-import { Code2, Sword, BookOpen, Users } from "lucide-react"
+import { GitBranch, Swords, ScrollText, GraduationCap } from "lucide-react"
 
 export function About() {
   return (
@@ -17,12 +17,12 @@ export function About() {
           <Card className="p-6 space-y-4 hover:shadow-lg transition-shadow">
             <div className="flex items-start gap-4">
               <div className="p-3 rounded-lg bg-primary/10">
-                <Code2 className="h-6 w-6 text-primary" />
+                <GitBranch className="h-6 w-6 text-primary" />
               </div>
               <div className="space-y-2 flex-1">
                 <h3 className="text-xl font-semibold">Liderazgo Técnico</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                 Lidero un equipo ágil, construyendo productos escalables con React Native (New Arch) y BFF con Node.js. Promuevo automatizaciones de QA y buenas prácticas de seguridad para entregar soluciones confiables y orientadas al negocio.
+                Como Tech Lead, lidero equipos ágiles en el desarrollo de productos escalables con React Native (New Architecture) y BFF en Node.js. Impulso la automatización de QA, las buenas prácticas de seguridad y la mejora continua, promoviendo soluciones confiables y alineadas con los objetivos del negocio.
                 </p>
               </div>
             </div>
@@ -31,12 +31,12 @@ export function About() {
           <Card className="p-6 space-y-4 hover:shadow-lg transition-shadow">
             <div className="flex items-start gap-4">
               <div className="p-3 rounded-lg bg-accent/10">
-                <Users className="h-6 w-6 text-accent" />
+                <GraduationCap className="h-6 w-6 text-accent" />
               </div>
               <div className="space-y-2 flex-1">
-                <h3 className="text-xl font-semibold">Mentoría & Enseñanza</h3>
+                <h3 className="text-xl font-semibold">Mentoría & Comunidad</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                 Colaboro como voluntaria en comunidades como Sysarmy y Nerdearla. Me apasiona compartir conocimiento, impulsar el crecimiento de otros desarrolladores y generar espacios donde aprender sea una experiencia accesible y colaborativa. 
+Además de mi profesion en sistemas, colaboro como voluntaria en Nerdearla y lidero proyectos comunitarios en HEMA Argentina y HEMA Latam. Me interesa crear espacios donde las personas puedan compartir conocimiento, aprender de otras experiencias y encontrar oportunidades para crecer y conectarse.
                 </p>
               </div>
             </div>
@@ -45,12 +45,12 @@ export function About() {
           <Card className="p-6 space-y-4 hover:shadow-lg transition-shadow">
             <div className="flex items-start gap-4">
               <div className="p-3 rounded-lg bg-accent/10">
-                <Sword className="h-6 w-6 text-accent" />
+                <Swords className="h-6 w-6 text-accent" />
               </div>
               <div className="space-y-2 flex-1">
                 <h3 className="text-xl font-semibold">Esgrima Histórica (HEMA)</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Practico y enseño esgrima histórica medieval. La disciplina, la estrategia y el trabajo en equipo que promueve este arte marcial complementan mi enfoque técnico y mi manera de liderar.
+                  La esgrima histórica medieval es una de mis grandes pasiones. Como instructora y practicante, encontré en HEMA un espacio donde la estrategia, la disciplina y la práctica constante se combinan con el trabajo en equipo y el liderazgo. Muchos de estos aprendizajes también forman parte de mi manera de trabajar y de relacionarme con los demás.
                 </p>
               </div>
             </div>
@@ -59,12 +59,12 @@ export function About() {
           <Card className="p-6 space-y-4 hover:shadow-lg transition-shadow">
             <div className="flex items-start gap-4">
               <div className="p-3 rounded-lg bg-primary/10">
-                <BookOpen className="h-6 w-6 text-primary" />
+                <ScrollText className="h-6 w-6 text-primary" />
               </div>
               <div className="space-y-2 flex-1">
-                <h3 className="text-xl font-semibold">Ciencia & Historia</h3>
+                <h3 className="text-xl font-semibold">Ciencia & Curiosidad</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Apasionada por la ciencia, la época medieval y la historia. Me inspiran la curiosidad, el pensamiento crítico y entender cómo la tecnología y el conocimiento han impulsado a la humanidad a lo largo del tiempo.
+                  Me apasionan la ciencia, la historia y el aprendizaje continuo. La curiosidad y el pensamiento crítico me impulsan a explorar nuevas ideas, cuestionar supuestos y buscar una comprensión más profunda de cómo funcionan las cosas. Para mí, aprender y compartir lo aprendido son parte fundamental del crecimiento personal y profesional.
                 </p>
               </div>
             </div>

@@ -1,5 +1,6 @@
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { LinkedInLogo } from "@/components/icons/linkedin-logo"
 
 export function Footer() {
   return (
@@ -11,20 +12,16 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">Tech Lead | Software Engineer Staff | Córdoba, Argentina</p>
           </div>
 
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" asChild>
+          <div className="flex items-center gap-3">
+            <Button variant="outline" className="gap-2" asChild>
               <a
                 href="https://www.linkedin.com/in/valeria-ibanez/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
-              <a href="https://github.com/valeria-ibanez" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <Github className="h-5 w-5" />
+                <LinkedInLogo className="h-4 w-4" />
+                LinkedIn
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
