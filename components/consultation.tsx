@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Calendar, Clock, CheckCircle2 } from "lucide-react"
+import { CalendlyEmbed } from "@/components/calendly-embed"
 
 const consultationTypes = [
   {
@@ -83,16 +84,7 @@ export function Consultation() {
         </div> */}
         <Card className="overflow-hidden">
             <CardContent className="p-0">
-              <div className="relative h-[700px] w-full">
-                <iframe
-                  src="https://calendly.com/valtory/1-1"
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  className="rounded-lg"
-                  title="Calendly Scheduling"
-                />
-              </div>
+              <CalendlyEmbed />
             </CardContent>
           </Card>
       </div>
