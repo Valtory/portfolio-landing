@@ -1,5 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
 
 const experiences = [
   {
@@ -47,9 +49,10 @@ const experiences = [
 
 export function Experience() {
   return (
-    <section className="py-20 px-4">
-      <div className="max-w-6xl mx-auto space-y-12">
+    <section className="py-16 md:py-20 px-4">
+      <div className="max-w-6xl mx-auto space-y-10">
         <div className="space-y-4 text-center">
+          <span className="block text-sm font-bold tracking-wide uppercase text-brand">Trayectoria</span>
           <h2 className="text-3xl md:text-4xl font-bold">Experiencia</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Más de 5 años liderando equipos y construyendo soluciones mobile y frontend para el ecosistema Fintech
@@ -65,7 +68,7 @@ export function Experience() {
                     <h3 className="text-xl font-semibold">{exp.role}</h3>
                     <p className="text-muted-foreground">{exp.company}</p>
                   </div>
-                  <Badge variant="secondary" className="w-fit">
+                  <Badge variant="secondary" className="w-fit rounded-full border-transparent bg-brand-tint text-brand-dark">
                     {exp.period}
                   </Badge>
                 </div>
@@ -74,7 +77,7 @@ export function Experience() {
 
                 <div className="flex flex-wrap gap-2">
                   {exp.skills.map((skill, skillIndex) => (
-                    <Badge key={skillIndex} variant="outline">
+                    <Badge key={skillIndex} variant="outline" className="rounded-full border-transparent bg-brand-tint text-brand-dark">
                       {skill}
                     </Badge>
                   ))}
@@ -85,7 +88,7 @@ export function Experience() {
                     href={exp.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block text-sm text-primary hover:underline"
+                    className="inline-block text-sm text-brand hover:underline"
                   >
                     Ver app publicada →
                   </a>
@@ -93,6 +96,15 @@ export function Experience() {
               </div>
             </Card>
           ))}
+        </div>
+
+        <div className="flex justify-center pt-2">
+          <Button size="lg" className="group" asChild>
+            <a href="#consulta">
+              Agendar Consulta
+              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </a>
+          </Button>
         </div>
       </div>
     </section>
