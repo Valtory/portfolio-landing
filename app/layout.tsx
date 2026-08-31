@@ -23,6 +23,21 @@ export const metadata: Metadata = {
   generator: "v0.app",
 }
 
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Valeria Ibañez",
+  jobTitle: "Tech Lead Mobile & Frontend",
+  sameAs: ["https://www.linkedin.com/in/valeria-ibanez/"],
+  memberOf: [
+    {
+      "@type": "Organization",
+      name: "HEMA Argentina",
+      url: "https://www.hema-argentina.com",
+    },
+  ],
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -34,6 +49,10 @@ export default function RootLayout({
         <link rel="preconnect" href="https://calendly.com" />
         <link rel="preconnect" href="https://assets.calendly.com" />
         <link rel="preconnect" href="https://js.stripe.com" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
       </head>
       <body className={`font-sans antialiased`}>
         {children}
