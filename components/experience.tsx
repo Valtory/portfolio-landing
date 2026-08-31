@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react"
 
 const experiences = [
   {
-    role: "Tech Lead Mobile @ Link",
+    role: "Tech Lead Mobile & Chapter Lead @ Link",
     company: "Redbee Studios",
     period: "jul 2025 - Actual",
     description:
